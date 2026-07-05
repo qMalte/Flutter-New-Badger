@@ -13,7 +13,7 @@ A new Flutter project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Sources/flutter_new_badger/**/*.swift'
+  s.source_files = 'flutter_new_badger/Sources/flutter_new_badger/**/*.swift'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
 
@@ -21,5 +21,5 @@ A new Flutter project.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
 
-  s.resource_bundles = {'flutter_new_badger_privacy' => ['Sources/flutter_new_badger/Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'flutter_new_badger_privacy' => ['flutter_new_badger/Sources/flutter_new_badger/Resources/PrivacyInfo.xcprivacy']}
 end

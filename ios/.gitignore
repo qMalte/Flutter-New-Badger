@@ -10,6 +10,7 @@ profile
 DerivedData/
 build/
 .build/
+flutter_new_badger/.build/
 GeneratedPluginRegistrant.h
 GeneratedPluginRegistrant.m
 

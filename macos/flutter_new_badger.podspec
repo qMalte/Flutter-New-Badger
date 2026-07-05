@@ -14,7 +14,7 @@ A new Flutter project.
   s.author           = { 'Your Company' => 'email@example.com' }
 
   s.source           = { :path => '.' }
-  s.source_files = 'Sources/flutter_new_badger/**/*.swift'
+  s.source_files = 'flutter_new_badger/Sources/flutter_new_badger/**/*.swift'
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.14'
