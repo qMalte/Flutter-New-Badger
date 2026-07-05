@@ -7,7 +7,7 @@ let package = Package(
         .iOS("12.0")
     ],
     products: [
-        .library(name: "flutter_new_badger", targets: ["flutter_new_badger"])
+        .library(name: "flutter-new-badger", targets: ["flutter_new_badger"])
     ],
     targets: [
         .target(
